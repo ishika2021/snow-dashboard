@@ -1,0 +1,66 @@
+.left-sidebar {
+    padding: 20px 16px 20px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 212px;
+    min-width: 212px;
+    border-right: 1px solid $border-color;
+
+    .menu-item-header {
+        .header-list {
+            @include font-basic;
+            padding: $padding-1;
+            display: flex;
+            gap: 8px;
+            flex-direction: column;
+        }
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    @media screen and (max-width: $width-screen-md-2) {
+        width: 160px;
+        min-width: 160px;
+    }
+
+    @media screen and (max-width: $width-screen-md-3) {
+        width: 36px;
+        min-width: 36px;
+
+        .name-badge-wrapper {
+            span {
+                display: none;
+            }
+        }
+
+        .MuiList-root {
+            .MuiListSubheader-root {
+                display: none;
+            }
+
+            .MuiListItemText-root {
+                display: none;
+            }
+
+            .MuiButtonBase-root {
+                padding-left: 0;
+                gap: 0px;
+
+                .svg-icon {
+                    height: 50px;
+                }
+            }
+        }
+
+        .menu-item-header {
+            display: none;
+        }
+    }
+
+
+}

@@ -1,0 +1,26 @@
+.right-sidebar {
+    height: 100vh;
+    border-left: 1px solid $border-color;
+    width: 240px;
+    min-width: 240px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media screen and (max-width: $width-screen-md-1) {
+        padding: 20px 0px;
+    }
+
+    @media screen and (max-width: $width-screen-md-2) {
+        width: 36px;
+        min-width: 36px;
+        padding: 20px 5px;
+
+        .card-list-wrapper {
+            p {
+                display: none;
+            }
+        }
+    }
+}

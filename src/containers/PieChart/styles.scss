@@ -1,0 +1,40 @@
+.pie-chart {
+    height: 100%;
+    flex-direction: column !important;
+
+    h6 {
+        @include font-bold;
+        color: $font-primary;
+        margin: 0;
+    }
+
+    .MuiChartsLegend-series {
+        tspan {
+            @include font-bold;
+            font-size: 12px;
+            fill: $font-primary;
+            word-spacing: 48px;
+
+        }
+
+    }
+
+    .MuiChartsLegend-series:nth-child(1) {
+        tspan {
+            word-spacing: 58px;
+        }
+    }
+
+    .MuiChartsLegend-series:nth-child(3) {
+        tspan {
+            word-spacing: 30px;
+        }
+    }
+
+    .MuiChartsLegend-series:nth-child(4) {
+        tspan {
+            word-spacing: 57px;
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "icon": "BugBeetle",
+        "title": "You have a bug that needs...",
+        "time": "Just now",
+        "avatar": "",
+        "alt": "BugBeetle"
+    },
+    {
+        "id": 2,
+        "icon": "User",
+        "title": "New user registered",
+        "time": "59 minutes ago",
+        "avatar": "",
+        "alt": "User"
+    },
+    {
+        "id": 3,
+        "icon": "BugBeetle",
+        "title": "You have a bug that needs...",
+        "time": "12 hours ago",
+        "avatar": "",
+        "alt": "BugBeetle"
+    },
+    {
+        "id": 4,
+        "icon": "Broadcast",
+        "title": "Andi Lane subscribed to you",
+        "time": "Today, 11:59 AM",
+        "avatar": "",
+        "alt": "Broadcast"
+    }
+]

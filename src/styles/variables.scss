@@ -1,0 +1,71 @@
+//common colors
+$color-blue: #E3F5FF;
+$color-purple: #E5ECF6;
+$color-cyan: #A8C5DA;
+$color-indigo: #95A4FC;
+$color-blue-2:#B1E3FF;
+$color-mint: #BAEDBD;
+$color-black:#1C1C1C;
+$color-progress: #8A8CD9;
+$color-complete: #4AA785;
+$color-pending: #59A8D4;
+$color-approved: #FFC555;
+$color-rejected: #1C1C1C66;
+
+//theme-colors
+$background-primary: var(--bg-color-primary);
+$background-secondary: var(--bg-color-secondary);
+$font-primary: var(--font-color-primary);
+$font-secondary: var(--font-color-secondary);
+$font-light: var(--font-color-light);
+$font-search:var(--font-color-search);
+$bg-search: var(--bg-color-search);
+$bg-search-secondary: var(--bg-secondary-color-search);
+$bg-hover: var(--bg-color-search);
+$border-color: var(--border-color);
+ 
+// spacing
+$padding-1: 4px 8px 4px 8px;
+$padding-2: 8px 4px 8px 4px;
+
+//screen-size
+$width-screen-md-1: 1060px;
+$width-screen-md-2: 930px;
+$width-screen-md-3: 740px;
+$width-screen-md-4: 685px;
+$width-screen-sm: 480px;
+
+// mixins
+@mixin font-small{
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+@mixin font-basic{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@mixin font-bold{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+@mixin font-large{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+@mixin center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

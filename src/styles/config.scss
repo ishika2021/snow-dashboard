@@ -1,0 +1,46 @@
+[data-theme="light"] {
+    --bg-color-primary: #ffffff;
+    --bg-color-secondary: #F7F9FB;
+    --font-color-primary: #1C1C1C;
+    --font-color-secondary: #1C1C1C;
+    --bg-color-search: #1C1C1C0D;
+    --bg-secondary-color-search: #FAFBFD;
+    --font-color-search: #1C1C1C33;
+    --font-color-light: #1C1C1C66;
+    --border-color: #1C1C1C1A;
+}
+
+[data-theme="dark"] {
+    --bg-color-primary: #1C1C1C;
+    --bg-color-secondary: #ffffff0d;
+    --font-color-secondary: #1C1C1C;
+    --font-color-primary: #FFFFFF;
+    --bg-color-search: #FFFFFF1A;
+    --bg-secondary-color-search: #232323;
+    --font-color-search: #FFFFFF33;
+    --font-color-light: #FFFFFF66;
+    --border-color: #FFFFFF1A;
+}
+
+
+
+
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: var(--bg-color-primary);
+    box-sizing: content-box;
+    width: 100vw;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar { 
+    display: none;  
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

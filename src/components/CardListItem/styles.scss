@@ -1,0 +1,54 @@
+.card-list-item-wrapper {
+    @include font-basic;
+    color: $font-primary;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 4px;
+    align-items: center;
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon {
+        @include center-flex;
+        height: 24px;
+        width: 24px;
+        border-radius: 8px;
+
+    }
+
+    .time {
+        grid-column: 2/3;
+        color: $font-light
+    }
+
+    .even {
+        background-color: $color-cyan;
+    }
+
+    .odd {
+        background-color: $color-blue;
+    }
+
+    .avatar {
+    display: flex;
+    justify-content: center;
+        .MuiAvatar-root {
+            height: 24px;
+            width: 24px;
+        }
+
+    }
+    
+    .seperator{
+        grid-column: 1/2;
+        grid-row: 2;
+        height: 100%;
+        width: 1px;
+        background-color: $border-color;
+        justify-self: center;
+        margin-top: 2px;
+    }
+}

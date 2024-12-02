@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "avatar": "Female15",
+        "title": "Natali Craig",
+        "icon": "",
+        "alt": "Natali Craig"
+    },
+    {
+        "id": 2,
+        "avatar": "Male08",
+        "title": "Drew Cano",
+        "icon": "",
+        "alt": "Drew Cano"
+    },
+    {
+        "id": 3,
+        "avatar": "Male06",
+        "title": "Orlando Diggs",
+        "icon": "",
+        "alt": "Orlando Diggs"
+    },
+    {
+        "id": 4,
+        "avatar": "Female08",
+        "title": "Andi Lane",
+        "icon": "",
+        "alt": "Andi Lane"
+    },
+    {
+        "id": 5,
+        "avatar": "Female09",
+        "title": "Kate Morrison",
+        "icon": "",
+        "alt": "Kate Morrison"
+    },
+    {
+        "id": 6,
+        "avatar": "3D03",
+        "title": "Koray Okumus",
+        "icon": "",
+        "alt": "Koray Okumus"
+    }
+]

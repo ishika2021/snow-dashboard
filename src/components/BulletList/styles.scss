@@ -1,0 +1,12 @@
+.bullet-list-wrapper {
+    @include font-basic;
+    color: $font-primary;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+
+    span {
+        color: $font-primary;
+    }
+}

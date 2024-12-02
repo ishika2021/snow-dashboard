@@ -1,0 +1,11 @@
+.map-tag-wrapper{
+    @include font-small;
+    color: $font-primary;
+    
+    .tag-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+  
+}

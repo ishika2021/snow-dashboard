@@ -1,0 +1,17 @@
+.search{
+    display: flex;
+    width: 160px;
+    padding: $padding-1;
+    background-color: $bg-search;
+    border-radius: 8px;
+    input{
+        width: 100%;
+        outline: none;
+        border: none;
+        background: transparent;
+    }
+    
+    input::placeholder{
+        color: $font-search;
+    }
+}

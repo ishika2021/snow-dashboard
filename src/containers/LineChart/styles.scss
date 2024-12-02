@@ -1,0 +1,48 @@
+.line-chart-wrapper {
+    position: relative;
+
+    .graph-title {
+        position: absolute;
+        color: $font-primary;
+        z-index: 10;
+        margin: 0;
+        padding-right: 10px;
+        top: 17px;
+        left: 18px;
+        border-right: 1px solid $border-color;
+    }
+
+    .line-chart {
+        background-color: $background-secondary;
+        border-radius: 8px;
+
+        .MuiChartsAxis-tickLabel {
+            fill: $font-light !important;
+
+        }
+
+        .MuiChartsGrid-line {
+            stroke: $border-color;
+        }
+
+        .MuiChartsAxis-line {
+            stroke: $font-light !important;
+            stroke-width: 0.5 !important;
+        }
+
+        .MuiChartsLegend-series {
+            tspan {
+                @include font-bold;
+                font-size: 12px;
+                fill: $font-primary;
+
+            }
+
+            .MuiChartsLegend-mark {
+                ry: 10
+            }
+        }
+
+    }
+
+}

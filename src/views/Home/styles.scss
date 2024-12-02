@@ -1,0 +1,16 @@
+.home-wrapper{
+    background-color: $background-primary;
+    display: flex;
+    .main-wrapper{
+        width: calc(100vw - 212px - 240px);
+        @media screen and (max-width: $width-screen-md-2){
+            width: calc(100vw - 160px - 100px);
+        }
+        @media screen and (max-width: $width-screen-md-3){
+            width: calc(100vw - 36px - 100px);
+        }
+        @media screen and (max-width: $width-screen-md-4){
+            width: calc(100vw - 16px - 100px);
+        }
+    }
+}

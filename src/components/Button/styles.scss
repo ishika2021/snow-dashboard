@@ -1,0 +1,19 @@
+.btn {
+    @include font-basic;
+    padding: $padding-1;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-radius: 8px;
+    background-color: $bg-hover;
+}
+
+.btn-default {
+    color: $font-light;
+}
+
+.btn-lighter {
+    color: $font-search;
+}

@@ -1,0 +1,14 @@
+.card-list-wrapper {
+    p:first-child {
+        @include font-bold;
+        color: $font-primary;
+        margin: 0;
+        padding: $padding-2;
+    }
+
+    .content {
+        display: grid;
+        gap: 8px;
+    }
+
+}

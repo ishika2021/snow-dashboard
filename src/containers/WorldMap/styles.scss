@@ -1,0 +1,29 @@
+.world-map-wrapper {
+    width: 202px;
+    height: 318px;
+    padding: 24px;
+    background-color: $background-secondary;
+    border-radius: 16px;
+    display: grid;
+    gap: 16px;
+
+    h6 {
+        @include font-bold;
+        color: $font-primary;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+
+    }
+
+    .all-tag-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 10px;
+    }
+
+    @media screen and (max-width: $width-screen-md-4) {
+        width: 130px;
+    }
+}

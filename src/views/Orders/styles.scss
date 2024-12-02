@@ -1,0 +1,83 @@
+.order-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 28px;
+    
+    h6{
+        @include font-bold;
+        color: $font-primary;
+        margin: 0;
+        padding-left: 5px;
+    }
+    
+    .header{
+        padding: 8px;
+        display: flex;
+        gap: 8px;
+        background-color: $background-secondary;
+        border-radius: 8px;
+        
+        .search{
+            background-color: $bg-search-secondary;
+            border: 1px solid $border-color;
+        }
+        
+        div:last-child{
+            margin-left: auto
+        }
+    }
+
+    .order-list-table {
+        @include font-basic;
+        .datagrid-wrapper{
+            padding-bottom: 0px;
+            // .MuiDataGrid-container--top [role=row] {
+            //     background-color: red !important;
+            // }
+        }
+        .MuiDataGrid-root{
+            background-color: $background-primary;
+        }
+        
+        .MuiDataGrid-columnHeaders{
+            .MuiDataGrid-columnHeader{
+                background-color: $background-primary;
+            }
+        }
+        .MuiDataGrid-columnHeaderTitleContainer{
+            color: $font-light;
+            background-color: $background-primary;
+        }
+        .MuiDataGrid-columnHeaderTitleContainerContent {
+            padding: 0;
+        }
+
+        .MuiCheckbox-root {
+            svg {
+                fill: $border-color;
+                height: 16px;
+                width: 16px;
+            }
+        }
+        
+        .MuiAvatar-root{
+            height: 24px;
+            width: 24px;
+        }
+        
+        .date-field{
+            @include font-basic;
+            color: $font-primary;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            height: 100%;
+            svg{
+                height: 16px;
+                width: 16px;
+                color: $font-primary;
+            }
+        }
+    }
+}

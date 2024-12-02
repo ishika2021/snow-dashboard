@@ -1,0 +1,33 @@
+@import "./config.scss";
+@import "./variables.scss";
+
+// containers
+@import "../containers/LeftSidebar/styles.scss";
+@import "../containers/Navbar/styles.scss";
+@import "../containers/RightSidebar/styles.scss";
+@import "../containers/BarChart/styles.scss";
+@import "../containers/LineChart/styles.scss";
+@import "../containers/WorldMap/styles.scss";
+@import "../containers/Table/styles.scss";
+@import "../containers/PieChart/styles.scss";
+
+
+
+// components
+
+@import "../components/Button/styles.scss";
+@import "../components/BulletList/styles.scss";
+@import "../containers/Menu/styles.scss";
+@import "../components/NameBadge/styles.scss";
+@import "../components/CardList/styles.scss";
+@import "../components/CardListItem/styles.scss";
+@import "../components/Card/styles.scss";
+@import "../components/MapTag/styles.scss";
+@import "../components/Search/styles.scss";
+@import "../components/Icon/styles.scss";
+
+// views
+@import "../views/Home/styles.scss";
+@import "../views/Dashboard/styles.scss";
+@import "../views/Orders/styles.scss";
+
